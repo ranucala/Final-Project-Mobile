@@ -1,0 +1,8 @@
+sesuaikan localhostnya supaya databasenya yang dihubungkan dengan php , bisa di baca oleh android dengan cara
+diubah menjadi json terlebih dahulu. 
+
+berita.php
+detailberita.php
+
+
+folder image adalah untuk gambar di berita
