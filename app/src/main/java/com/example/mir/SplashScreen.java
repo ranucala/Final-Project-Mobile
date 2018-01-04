@@ -1,41 +1,38 @@
 package com.example.mir;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.content.Intent;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
+import android.view.WindowManager;
 
 import com.example.mir.inkom.R;
 
+
 public class SplashScreen extends AppCompatActivity {
+
+    int time = 2000;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //menyembunyikan status bar
+        if(Build.VERSION.SDK_INT >=16){
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        }
+
         setContentView(R.layout.splash_screen);
 
-// METHOD 1
-
-        /****** Create Thread that will sleep for 5 seconds *************/
-        Thread background = new Thread() {
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
             public void run() {
-
-                try {
-                    // Thread will sleep for 5 seconds
-                    sleep(3*1000);
-
-                    // After 5 seconds redirect to another intent
-                    Intent i=new Intent(getBaseContext(), BeritaUtama.class);
-                    startActivity(i);
-
-                    //Remove activity
-                    finish();
-
-                } catch (Exception e) {
-
-                }
+                startActivity(new Intent(SplashScreen.this, MenuActivity.class));
+                finish();
             }
-        };
-
-        // start thread
-        background.start();
+        }, time);
     }
 }
