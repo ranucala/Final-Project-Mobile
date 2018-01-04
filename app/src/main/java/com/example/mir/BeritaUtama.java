@@ -65,32 +65,6 @@ public class BeritaUtama extends  AppCompatActivity{
 
         });
 
-               /*menambah warna pada SwipeRefreshLayout
-        final SwipeRefreshLayout dorefresh = (SwipeRefreshLayout)findViewById(R.id.swipelayout);
-        dorefresh.setColorSchemeResources(android.R.color.holo_blue_bright,
-                android.R.color.holo_green_light,
-                android.R.color.holo_orange_light,
-                android.R.color.holo_red_light);
-
-        /*event ketika widget dijalankan
-        dorefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener(){
-            @Override
-            public void onRefresh() {
-                refreshItem();
-            }
-
-            void refreshItem() {
-
-                onItemLoad();
-            }
-
-            void onItemLoad() {
-                dorefresh.setRefreshing(false);
-            }
-
-        });*/
-
-
     }
 
     public void SetListViewAdapter(ArrayList<HashMap<String,
