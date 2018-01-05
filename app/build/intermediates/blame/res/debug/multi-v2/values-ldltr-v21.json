@@ -1,10 +1,25 @@
 {
     "logs": [
         {
+            "outputFile": "F:\\Amikom\\Semester_5\\Android\\INKOM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Iwan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8300cea4b013ce25fa412532bb5f4534\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\INKOM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MIR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\936ffa7d9f5626ef0e47cbe98e7494ac\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\MIR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\5e80578d52fb0e50c7de8c09dff7b642\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

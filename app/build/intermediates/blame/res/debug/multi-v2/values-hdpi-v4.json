@@ -4,7 +4,23 @@
             "outputFile": "C:\\INKOM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MIR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\936ffa7d9f5626ef0e47cbe98e7494ac\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\MIR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\5e80578d52fb0e50c7de8c09dff7b642\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Amikom\\Semester_5\\Android\\INKOM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Iwan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8300cea4b013ce25fa412532bb5f4534\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

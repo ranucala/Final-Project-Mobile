@@ -4,7 +4,23 @@
             "outputFile": "C:\\INKOM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MIR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0.aar\\936ffa7d9f5626ef0e47cbe98e7494ac\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\MIR\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\5e80578d52fb0e50c7de8c09dff7b642\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Amikom\\Semester_5\\Android\\INKOM2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Iwan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8300cea4b013ce25fa412532bb5f4534\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
