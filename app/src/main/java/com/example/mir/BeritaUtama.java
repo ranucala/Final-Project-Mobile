@@ -4,14 +4,12 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.mir.inkom.R;
 
@@ -35,17 +33,10 @@ public class BeritaUtama extends  AppCompatActivity{
     JSONArray string_json = null;
     ListView list;
     LazyAdapter adapter;
-    private SwipeRefreshLayout SwipeRefresh;
-    private TextView objekKata;
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.beritautama);
-
-
-
 
         DaftarBerita = new ArrayList<HashMap<String, String>>();
         new AmbilData().execute();
@@ -60,20 +51,13 @@ public class BeritaUtama extends  AppCompatActivity{
                 in.putExtra(TAG_GAMBAR, map.get(TAG_GAMBAR));
                 startActivity(in);
             }
-
-
-
         });
-
     }
-
     public void SetListViewAdapter(ArrayList<HashMap<String,
             String>> berita) {
-        adapter = new LazyAdapter(this ,berita);
+        adapter = new LazyAdapter(this, berita);
         list.setAdapter(adapter);
-
     }
-
     class AmbilData extends AsyncTask<String, String, String> {
         @Override
         protected void onPreExecute() {
@@ -119,4 +103,5 @@ public class BeritaUtama extends  AppCompatActivity{
             });
         }
     }
+
 }
